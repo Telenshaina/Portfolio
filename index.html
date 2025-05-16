@@ -8,12 +8,13 @@
         <style>
             section{
             width: 100vw;
-            height: 100vw;
-            padding: 50px
+            height: 100vh;
+            padding: 50px;
+            margin-bottom: 100px;
             }
 
             .cl_white{
-                color: white;
+                color: black;
             }
             img{
                 width: 300px;
@@ -36,10 +37,11 @@
                 <li><a href="#contact">Contact me</a></li>
             </ul>
         </nav>
-        <section id="home" style="background: url(image/header1.jpg);background-size: 100% 100%;" class="cl_white text-center">
+        <section id="home" style="background: url(image/headerbg.png);background-size: 100% 100%;" class="cl_dark text-center">
             <h1>My Portfolio</h1>
             <p class="lead">Welcome to my world, The life of a Programmer</p>
-            <button class= btn btn-default>Contact Me</button>
+            <img src="image/profile.jpg" class="img-circle center-block" alt="Profile Image" style="width: 200px; margin-top: 20px; margin-bottom: 20px;">
+            <button class="btn btn-default">Contact Me</button>
         </section>
 
         <section id="work" class="container">
@@ -47,35 +49,25 @@
                 <h1 class="text-center">My Work</h1>
             </div>
             <div class="text-center">
-               <img src="image/port1.jpg" class="img-thumbnail"/>
-               <img src="image/port2.jpg" class="img-thumbnail"/>
-               <img src="image/port3.jpg" class="img-thumbnail"/>
-               <img src="image/port4.jpg" class="img-thumbnail"/>
-               <img src="image/port5.jpg" class="img-thumbnail"/>
-               <img src="image/port6.jpg" class="img-thumbnail"/>
+               <img src="image/port1.svg" class="img-thumbnail"/>
+               <img src="image/port2.svg" class="img-thumbnail"/>
+               <img src="image/port3.svg" class="img-thumbnail"/>
+               <img src="image/port4.svg" class="img-thumbnail"/>
+               <img src="image/port5.png" class="img-thumbnail"/>
+               <img src="image/port6.svg" class="img-thumbnail"/>
             </div>
         </section>
 
         <section id="about" class="container">
             <h2 class="text-center">My Skills</h2>
-                <div class="col-text">On the other hand, we denounce with righteous indignation 
-                    and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by
-                    desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to 
-                    those who fail in their duty through weakness of will, which is the same as saying through shrinking from
-                    toil and pain. </div><br/>
+                <div class="col-text">I'm a passionate web developer and designer with a love for turning ideas into elegant, 
+                    functional websites. 
+                    With a background in both front-end and back-end technologies, 
+                    I enjoy crafting smooth user experiences and writing clean, efficient code. 
+                    Whether I am building a responsive portfolio or learning a new framework, 
+                    I am always striving to grow and create work I am proud of. Outside of coding,
+                     I enjoy problem-solving, design trends, and continuous learning in the ever-evolving world of tech.</div><br/>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h4>PHP Programmer</h4>
-                            </div>
-                            <div class="panel-body">
-                                <img src="image/me.jpg" class="img-circle center-block">
-                                <p class="lead text-center">I Do PHP Programming </p>
-                            </div>
-                            <div class="panel-footer"></div>
-                        </div>
-                    </div>
 
                     <div class="col-md-6">
                         <div class="panel panel-primary">
@@ -89,6 +81,20 @@
                             <div class="panel-footer"></div>
                         </div>
                     </div>
+
+                    <div class="col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h4>App Developer</h4>
+                            </div>
+                            <div class="panel-body">
+                                <img src="image/me3.jpg" class="img-circle center-block">
+                                <p class="lead text-center">I Do React Native </p>
+                            </div>
+                            <div class="panel-footer"></div>
+                        </div>
+                    </div>
+
                 </div>
         </section>
 
@@ -107,7 +113,7 @@
                     <input class="form-control" placeholder="Subject" type="text"/>
                 </div> 
                 <div class="form-group">
-                    <textarea class="form-control rows="10">Comments</textarea>
+                    <textarea class="form-control" rows="10" placeholder="Comments"></textarea>
                 </div>
                 <div class="form-group">
                     <input class="btn btn-success btn-block"type="submit"/>
